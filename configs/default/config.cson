@@ -1,13 +1,22 @@
-title: "Default Configuration"
+title: "Ableton"
 type: "object"
 properties:
   options:
     title: "Options"
     type: "object"
     properties:
-      example:
-        title: "Example String"
-        type: "string"
-    required: [
-      "example"
-    ]
+      button:
+        title: "Button Colors"
+        type: "array"
+        items:
+          title: 'Button'
+          type: 'object'
+          properties:
+            x:
+              type: 'integer'
+              minimum: 1
+              maximum: 9
+            y:
+              type: 'integer'
+              minimum: 1
+              maximum: 9

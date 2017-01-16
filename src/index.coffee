@@ -21,7 +21,7 @@ class Connector extends EventEmitter
 
   onConfig: (device={}) =>
     { options } = device
-    @ableton.setButtonColors options?.buttons
+    @ableton.setButtonColors options
 
   start: (device, callback) =>
     debug 'started'

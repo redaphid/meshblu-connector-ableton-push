@@ -28,7 +28,7 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "ableton-push": "^1.1.1",
+    "ableton-push": "2.0.0",
     "coffee-script": "^1.10.0",
     "debug": "^2.2.0",
     "fs-cson": "^0.3.2",
